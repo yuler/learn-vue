@@ -1,0 +1,28 @@
+{
+  "name": "learn-vue",
+  "version": "0.1.0",
+  "description": "xxx",
+  "main": "index.js",
+  "repository": "git@github.com:yuler/learn-vue.git",
+  "author": "yuler <joyful4yu@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "karma start test/unit/karma.unit.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "es6-promise": "^4.2.8",
+    "jasmine": "^3.5.0",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-firefox-launcher": "^1.3.0",
+    "karma-jasmine": "^3.1.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-safari-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^4.0.2",
+    "webpack": "^4.42.1"
+  }
+}

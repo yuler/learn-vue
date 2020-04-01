@@ -35,14 +35,14 @@ export default class Dep {
 }
 
 Dep.target = null
-targetStack = []
+const targetStack = []
 
-export pushTarget(target) {
+export function pushTarget(target) {
   targetStack.push(target)
   Dep.target = target
 }
 
-export popTarget() {
+export function popTarget() {
   targetStack.pop()
   Dep.target = targetStack[targetStack.length - 1]
 }
